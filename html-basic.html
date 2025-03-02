@@ -33,10 +33,10 @@
 
   <marquee behavior="" direction="">piao</marquee>
 
-  <i>这几种强调</i> 
+  <i>这几种强调</i>
   <strong>有什么</strong>
-  <b>区别？</b>  
-  <u>这个？</u> 
+  <b>区别？</b>
+  <u>这个？</u>
   <em>这个？</em>
 
   <p>&lt;!-- 这段注释需要出现在页面里面 --></p>
@@ -76,9 +76,62 @@
     <dd>豆豆</dd>
   </dl>
 
-    <hr>
+  <hr>
 
+  <h2>Google搜索</h2>
+  <form action="https://www.google.com.hk/search" target="_blank">
+    <input type="text" name="q">
+    <button>在新窗口打开搜索结果</button>
+  </form>
 
+  <hr>
+
+  <form action="">个人信息调查表
+    <dl>
+      <dt>性别</dt>
+      <dd>
+        <label><input type="radio" value="male" name="gender">男</label>
+        <label><input type="radio" value="female" name="gender">女</label>
+      </dd>
+      <dt>年龄</dt>
+      <dd>
+        <select name="age" id="">
+          <optgroup label="少年">
+            <option value="1-6">1-6</option>
+            <option value="7-12">7-12</option>
+          </optgroup>
+          <optgroup label="青年">
+            <option value="13-15">13-15</option>
+            <option value="16-18">16-18</option>
+          </optgroup>
+          <optgroup label="成年">
+            <option value=">18">>18</option>
+          </optgroup>
+        </select>
+      </dd>
+
+      <dt>生日</dt>
+      <dd>
+        <input type="date" value="2021/11/04">
+      </dd>
+
+      <dt>生辰</dt>
+      <dd>
+        <input type="time">
+      </dd>
+
+      <dt>照片</dt>
+      <dd>
+        <input type="hidden" value="">
+      </dd>
+
+      <dt>自我介绍</dt>
+      <dd>
+        <textarea></textarea>
+      </dd>
+
+    </dl>
+  </form>
 
 
 
